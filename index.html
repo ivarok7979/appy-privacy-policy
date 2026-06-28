@@ -3,10 +3,124 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=privacy-policy.html">
-  <title>Appy Privacy Policy</title>
+  <title>Appy: Learning Breaks</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #172033;
+      background: #f7f8fb;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 44px 20px;
+    }
+
+    .hero {
+      display: grid;
+      gap: 22px;
+      align-items: center;
+      min-height: 78vh;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(38px, 8vw, 72px);
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 660px;
+      margin: 0;
+      font-size: 21px;
+      line-height: 1.45;
+      color: #3c4658;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 20px;
+      border-radius: 8px;
+      background: #146ef5;
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .privacy {
+      color: #465268;
+      text-decoration: none;
+    }
+
+    .features {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin-top: 34px;
+    }
+
+    .feature {
+      padding: 18px;
+      border: 1px solid #dfe4ec;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .feature h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+
+    .feature p {
+      margin: 0;
+      color: #465268;
+      line-height: 1.45;
+    }
+  </style>
 </head>
 <body>
-  <p><a href="privacy-policy.html">Privacy Policy for Appy: Learning Breaks</a></p>
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Appy: Learning Breaks</h1>
+        <p class="lead">Turn screen time into short learning moments. Appy helps parents add quick cards for colors, shapes, counting, matching, and tracing while kids watch or play.</p>
+      </div>
+      <div class="actions">
+        <a class="button" href="https://play.google.com/store/apps/details?id=com.mathpop.trainer">Get it on Google Play</a>
+        <a class="privacy" href="privacy-policy.html">Privacy Policy</a>
+      </div>
+      <div class="features">
+        <article class="feature">
+          <h2>Parent controlled</h2>
+          <p>Choose where learning cards appear and when breaks are active.</p>
+        </article>
+        <article class="feature">
+          <h2>Short practice</h2>
+          <p>Small cards keep learning light, fast, and easy to fit into normal screen time.</p>
+        </article>
+        <article class="feature">
+          <h2>Made for Android</h2>
+          <p>Works over selected apps so learning can appear during videos, browsers, and games.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
